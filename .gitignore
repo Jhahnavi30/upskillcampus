@@ -1,0 +1,5 @@
+passwords.db
+secret.key
+.vscode/
+.dist/
+__pycache__/
