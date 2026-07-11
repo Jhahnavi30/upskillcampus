@@ -1,25 +1,30 @@
 # Password Manager
 
 ## Description
-A secure password management application developed using Python, Tkinter, SQLite, and Cryptography. The application enables users to store, manage, and retrieve credentials securely while supporting password generation and encrypted data storage.
+A secure Password Manager application developed using Python during the Free Summer Internship in Python 2026 conducted by upskill Campus in collaboration with UniConverge Technologies Pvt. Ltd. (UCT).
+
+The application allows users to securely store, generate, search, view, and delete passwords using encryption for enhanced security.
 
 ## Features
-- Secure password storage
-- Password generation
-- Credential management
-- Encrypted data protection
+- Generate strong random passwords
+- Secure password storage using Fernet encryption
+- Save credentials in SQLite database
+- View all saved passwords
+- Search passwords by website name
+- Delete stored passwords
 - User-friendly graphical interface
 
 ## Technologies Used
 - Python
 - Tkinter
 - SQLite
-- Cryptography
+- Cryptography (Fernet)
 
 ## Project Structure
-- main.py - Application logic and GUI
-- passwords.db - Local database (excluded from GitHub)
-- secret.key - Encryption key (excluded from GitHub)
+- `main.py` – Main application source code
+- `passwords.db` – SQLite database
+- `secret.key` – Encryption key
+- `README.md` – Project documentation
 
 ## Author
 Jhahnavi K P
